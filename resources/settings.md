@@ -2,7 +2,7 @@
 
 ## Template
 
-There is a template included in "resources/". To use it, copy the file "resources/OCPNTemplate-6cd87037-2b2f-4c50-9750-776764636100.conf" to your "config" directory and edit the "configs.xml" and paste the **contents** of the file "resources/template.xml" in between the <configs> <configs/> tags.
+There is a template included in "resources/". To use it, copy the file "resources/OCPNTemplate-6cd87037-2b2f-4c50-9750-776764636100.conf" to your "config" directory and edit the "configs.xml" and paste the **contents** of the file "resources/template.xml" in between the `<configs> <configs/>` tags.
 
 (Re-)Start OpenCPN and go to Options -> Display -> Templates. The added template "Swedish Charts" should be in the list. The setting below (except the fonts) should be in the template.
 

@@ -8,13 +8,15 @@ These files are tested in OpenCPN 5.2.4 on Linux. Other platforms should work an
 
 ## Included files
 
-The different chartsymbols.xml files holds data for the different colors used to draw the charts and also data of which symbols are to be used for show objects on the chart. The actual symbols resides in "common/rastersymbols-day.png"
+The different chartsymbols.xml files holds data of the different colors used in the charts and also data of which symbols are to be used to show objects in the chart. The actual symbols resides in "common/rastersymbols-day.png"
 
-The file "master/changed symbols.txt" contains information on which symbols have been changed.
+The file "master/changed symbols.txt" contains information about changed symbols.
 
 The "master/rastersymbols.xcf" file have all symbols and different layers to prduce the png files "...day.png", "...dusk.png" and "...dark.png". Use [Gimp](https://www.gimp.org/) to edit the file.
 
 "[resources/settings.md](resources/settings.md)" contains some tips and examples of settings that have an impact on the vector charts.
+
+
 
 ## How to use
 
