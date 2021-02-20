@@ -1,0 +1,809 @@
+It is not possible to place comments in this area of chartsymbols.xml, OpenCPN crashes. Therefore the changed symbols are documented here. Below are all (most) symbols changed to new bitmaps.
+
+Special cases:
+
+Single building black:
+
+		<symbol RCID="1307">
+			<name>BUISGL01</name>
+			<description>single building</description>
+			<bitmap width="4" height="4">
+				<distance min="0" max="0" />
+				<pivot x="2" y="2" />
+				<origin x="0" y="0" />
+				<graphics-location x="459" y="102" />
+			</bitmap>
+			<color-ref>WLANDFKCHBRN</color-ref>
+			<vector width="250" height="250">
+				<distance min="0" max="0" />
+				<pivot x="750" y="750" />
+				<origin x="618" y="618" />
+				<HPGL>SPK;ST0;PU618,618;PM0;PD868,618,868,868,618,868,618,618;PM2;FP;SPW;SW2;PU618,618;PD868,618;PD868,868;PD618,868;PD618,618;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+
+
+Single building grey:
+
+		<symbol RCID="1307">
+			<name>BUISGL01</name>
+			<description>single building</description>
+			<bitmap width="4" height="4">
+				<distance min="0" max="0" />
+				<pivot x="2" y="2" />
+				<origin x="0" y="0" />
+				<graphics-location x="459" y="95" />
+			</bitmap>
+			<color-ref>WLANDFKCHBRN</color-ref>
+			<vector width="250" height="250">
+				<distance min="0" max="0" />
+				<pivot x="750" y="750" />
+				<origin x="618" y="618" />
+				<HPGL>SPK;ST0;PU618,618;PM0;PD868,618,868,868,618,868,618,618;PM2;FP;SPW;SW2;PU618,618;PD868,618;PD868,868;PD618,868;PD618,618;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+
+
+
+List of changed symbols (searchable in chartsymbols.xlm):
+BCNTOW01
+BCNGEN01
+BOYSPR60
+BOYSPR61
+BOYPIL60
+BOYPIL61
+BUISGL01
+LIGHTS11
+LIGHTS12
+LIGHTS13
+TOPMAR13
+TOPMAR02
+BOYSPR68
+BOYSPR69
+BOYSPR70
+BOYSPR71
+TOPMAR05
+TOPMAR06
+TOPMAR07
+TOPMAR08
+BOYPIL68
+BOYPIL69
+BOYPIL70
+BOYPIL71
+BOYPIL62
+BOYSPR62
+TOPSHPI1
+BCNSTK08
+BOYSPH62
+BOYPIL72
+TOPMAR12
+BOYSUP62
+BOYSPR72
+BOYCON62
+BUISGL11
+MORFAC03
+BOYPIL73
+TOPMAR10
+BCNSTK60
+BCNSTK61
+BCNSTK62
+BCNGEN70
+BCNGEN68
+BCNGEN69
+BCNGEN71
+BCNSTK05
+TOPSHQ07
+
+
+Most of the default symbols:
+
+		<symbol RCID="1267">
+			<name>BCNTOW01</name>
+			<description>beacon tower, paper-chart</description>
+			<bitmap width="15" height="16">
+				<distance min="0" max="0" />
+				<pivot x="7" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="833" y="10" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="500" height="520">
+				<distance min="0" max="0" />
+				<pivot x="750" y="750" />
+				<origin x="500" y="300" />
+				<HPGL>SPC;PU750,750;SW2;CI70;PU500,750;PD680,750;PU815,750;PD1000,750;SW2;PU550,750;PD650,300;PD850,300;PD950,750;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+		
+		<symbol RCID="11">
+			<name>BCNGEN01</name>
+			<description>beacon in general, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="147" y="415" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="11">
+			<name>BOYSPR60</name>
+			<description>red spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="115" y="778" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHREDDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="11">
+			<name>BOYSPR61</name>
+			<description>green spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="135" y="778" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHGRNDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL60</name>
+			<description>pillar buoy,lateral-r,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1067" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHRED</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL61</name>
+			<description>pillar buoy,lateral-g,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1095" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHGRN</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="1307">
+			<name>BUISGL01</name>
+			<description>single building</description>
+			<bitmap width="4" height="4">
+				<distance min="0" max="0" />
+				<pivot x="2" y="2" />
+				<origin x="0" y="0" />
+				<graphics-location x="459" y="95" />
+			</bitmap>
+			<color-ref>WLANDFKCHBRN</color-ref>
+			<vector width="250" height="250">
+				<distance min="0" max="0" />
+				<pivot x="750" y="750" />
+				<origin x="618" y="618" />
+				<HPGL>SPK;ST0;PU618,618;PM0;PD868,618,868,868,618,868,618,618;PM2;FP;SPW;SW2;PU618,618;PD868,618;PD868,868;PD618,868;PD618,618;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="1396">
+			<name>LIGHTS11</name>
+			<description>light flare, red</description>
+			<bitmap width="22" height="22">
+				<distance min="0" max="0" />
+				<pivot x="0" y="0" />
+				<origin x="0" y="0" />
+				<graphics-location x="247" y="175" />
+			</bitmap>
+			<color-ref>PLITRD^CHBLK</color-ref>
+			<vector width="285" height="810">
+				<distance min="0" max="0" />
+				<pivot x="2250" y="2220" />
+				<origin x="2100" y="1492" />
+				<HPGL>SPP;ST2;PU2250,2220;PM0;PD2130,1657,2130,1635,2130,1597,2145,1560,2167,1545,2197,1522,2242,1515,2280,1522,2310,1530;PD2340,1552,2355,1590,2362,1620,2362,1650,2250,2220;PM2;FP;SP^;SW1;PU2385,1605;PD2377,1642;PD2250,2302;SPP;PU2250,2220;PD2122,1642;PD2130,1605;PD2137,1575;PD2160,1552;PD2190,1522;PD2227,1515;PD2250,1515;PD2280,1522;PD2317,1537;PD2340,1560;PD2355,1590;PD2362,1620;PD2355,1672;PD2250,2220;SP^;PU2250,2302;PD2100,1627;PD2122,1560;PD2182,1507;PD2250,1492;PD2310,1515;PD2347,1537;PD2377,1597;</HPGL>
+			</vector>
+			<definition>V</definition>
+			<prefer-bitmap>yes</prefer-bitmap>
+		</symbol>
+
+		<symbol RCID="1397">
+			<name>LIGHTS12</name>
+			<description>light flare, green</description>
+			<bitmap width="22" height="22">
+				<distance min="0" max="0" />
+				<pivot x="0" y="0" />
+				<origin x="0" y="0" />
+				<graphics-location x="278" y="205" />
+			</bitmap>
+			<color-ref>PLITGN^CHBLK</color-ref>
+			<vector width="285" height="810">
+				<distance min="0" max="0" />
+				<pivot x="2250" y="2220" />
+				<origin x="2100" y="1492" />
+				<HPGL>SPP;ST2;PU2250,2220;PM0;PD2130,1657,2130,1635,2130,1597,2145,1560,2167,1545,2197,1522,2242,1515,2280,1522,2310,1530;PD2340,1552,2355,1590,2362,1620,2362,1650,2250,2220;PM2;FP;SP^;SW1;PU2385,1605;PD2377,1642;PD2250,2302;SPP;PU2250,2220;PD2122,1642;PD2130,1605;PD2137,1575;PD2160,1552;PD2190,1522;PD2227,1515;PD2250,1515;PD2280,1522;PD2317,1537;PD2340,1560;PD2355,1590;PD2362,1620;PD2355,1672;PD2250,2220;SP^;PU2250,2302;PD2100,1627;PD2122,1560;PD2182,1507;PD2250,1492;PD2310,1515;PD2347,1537;PD2377,1597;</HPGL>
+			</vector>
+			<definition>V</definition>
+			<prefer-bitmap>yes</prefer-bitmap>
+		</symbol>
+
+		<symbol RCID="1398">
+			<name>LIGHTS13</name>
+			<description>light flare, white or yellow</description>
+			<bitmap width="22" height="22">
+				<distance min="0" max="0" />
+				<pivot x="0" y="0" />
+				<origin x="0" y="0" />
+				<graphics-location x="278" y="175" />
+			</bitmap>
+			<color-ref>PLITYW^CHBLK</color-ref>
+			<vector width="285" height="810">
+				<distance min="0" max="0" />
+				<pivot x="2250" y="2220" />
+				<origin x="2100" y="1492" />
+				<HPGL>SPP;ST2;PU2250,2220;PM0;PD2130,1657,2130,1635,2130,1597,2145,1560,2167,1545,2197,1522,2242,1515,2280,1522,2310,1530;PD2340,1552,2355,1590,2362,1620,2362,1650,2250,2220;PM2;FP;SP^;SW1;PU2385,1605;PD2377,1642;PD2250,2302;SPP;PU2250,2220;PD2122,1642;PD2130,1605;PD2137,1575;PD2160,1552;PD2190,1522;PD2227,1515;PD2250,1515;PD2280,1522;PD2317,1537;PD2340,1560;PD2355,1590;PD2362,1620;PD2355,1672;PD2250,2220;SP^;PU2250,2302;PD2100,1627;PD2122,1560;PD2182,1507;PD2250,1492;PD2310,1515;PD2347,1537;PD2377,1597;</HPGL>
+			</vector>
+			<definition>V</definition>
+			<prefer-bitmap>yes</prefer-bitmap>
+		</symbol>
+
+		<symbol RCID="1603">
+			<name>TOPMAR13</name>
+			<description>topmark for buoys, cylinder, paper-chart</description>
+			<bitmap width="7" height="8">
+				<distance min="0" max="0" />
+				<pivot x="0" y="25" />
+				<origin x="0" y="0" />
+				<graphics-location x="66" y="307" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="215" height="220">
+				<distance min="0" max="0" />
+				<pivot x="1505" y="1475" />
+				<origin x="1535" y="730" />
+				<HPGL>SPC;SW2;PU1535,950;PD1685,950;PD1750,730;PD1590,730;PD1535,950;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="1595">
+			<name>TOPMAR02</name>
+			<description>topmark for buoys, cone point up, paper-chart</description>
+			<bitmap width="8" height="6">
+				<distance min="0" max="0" />
+				<pivot x="1" y="24" />
+				<origin x="0" y="0" />
+				<graphics-location x="1378" y="239" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="210" height="165">
+				<distance min="0" max="0" />
+				<pivot x="1510" y="1460" />
+				<origin x="1520" y="785" />
+				<HPGL>SPC;ST0;PU1665,785;PM0;PD1520,950,1730,950,1665,785;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+
+		<symbol RCID="11">
+			<name>BOYSPR68</name>
+			<description>black/yellow spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="1459" y="701" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BOYSPR69</name>
+			<description>yellow/black spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="143" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BOYSPR70</name>
+			<description>black/yellow/black spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="163" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BOYSPR71</name>
+			<description>yellow/black/yellow spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="183" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="1597">
+			<name>TOPMAR05</name>
+			<description>topmark for buoys, 2 cones point upward, paper-chart</description>
+			<bitmap width="9" height="13">
+				<distance min="0" max="0" />
+				<pivot x="0" y="29" />
+				<origin x="0" y="0" />
+				<graphics-location x="1413" y="239" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="275" height="405">
+				<distance min="0" max="0" />
+				<pivot x="1505" y="1470" />
+				<origin x="1515" y="545" />
+				<HPGL>SPC;ST0;PU1665,770;PM0;PD1515,950,1750,950,1665,770;PM2;FP;PU1715,545;PM0;PD1565,730,1790,730,1715,545;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="1598">
+			<name>TOPMAR06</name>
+			<description>topmark for buoys, 2 cones point downward, paper-chart</description>
+			<bitmap width="10" height="12">
+				<distance min="0" max="0" />
+				<pivot x="-1" y="29" />
+				<origin x="0" y="0" />
+				<graphics-location x="1432" y="239" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="280" height="370">
+				<distance min="0" max="0" />
+				<pivot x="1510" y="1470" />
+				<origin x="1555" y="565" />
+				<HPGL>SPC;ST0;PU1555,775;PM0;PD1790,775,1615,935,1555,775;PM2;FP;PU1600,565;PM0;PD1835,565,1665,725,1600,565;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="1599">
+			<name>TOPMAR07</name>
+			<description>topmark for buoys, 2 cones base to base, paper-chart</description>
+			<bitmap width="8" height="13">
+				<distance min="0" max="0" />
+				<pivot x="0" y="30" />
+				<origin x="0" y="0" />
+				<graphics-location x="1452" y="239" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="240" height="395">
+				<distance min="0" max="0" />
+				<pivot x="1505" y="1470" />
+				<origin x="1550" y="555" />
+				<HPGL>SPC;ST0;PU1550,785;PM0;PD1785,785,1615,950,1550,785;PM2;FP;PU1700,555;PM0;PD1570,730,1790,730,1700,555;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="1600">
+			<name>TOPMAR08</name>
+			<description>topmark for buoys, 2 cones point to point, paper-chart</description>
+			<bitmap width="11" height="12">
+				<distance min="0" max="0" />
+				<pivot x="1" y="28" />
+				<origin x="0" y="0" />
+				<graphics-location x="10" y="307" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="330" height="385">
+				<distance min="0" max="0" />
+				<pivot x="1505" y="1470" />
+				<origin x="1510" y="565" />
+				<HPGL>SPC;ST0;PU1665,770;PM0;PD1510,950,1750,950,1665,770;PM2;FP;PU1595,565;PM0;PD1840,565,1670,730,1595,565;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL68</name>
+			<description>pillar buoy,cardinal-by,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1291" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCOUTLWDCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL69</name>
+			<description>pillar buoy,cardinal-yb,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1319" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDOUTLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL70</name>
+			<description>pillar buoy,cardinal-byb,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1347" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCOUTLWDCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="43">
+			<name>BOYPIL71</name>
+			<description>pillar buoy,cardianl-yby,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1375" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDOUTLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="43">
+			<name>BOYPIL62</name>
+			<description>pillar buoy,special purpose-y,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1123" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BOYSPR62</name>
+			<description>yellow spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="203" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLWDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="36">
+			<name>TOPSHPI1</name>
+			<description>beacon top mark, red boarded square board, vertical</description>
+			<bitmap width="15" height="15">
+				<distance min="0" max="0" />
+				<pivot x="6" y="27" />
+				<origin x="0" y="0" />
+				<graphics-location x="176" y="902" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHREDDCHWHTECHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="23">
+			<name>BCNSTK08</name>
+			<description>minor, stake or pole beacon,yellow full-chart</description>
+			<bitmap width="8" height="16">
+				<distance min="0" max="0" />
+				<pivot x="3" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="972" y="778" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="45">
+			<name>BOYSPH62</name>
+			<description>spherical buoy,yellow,full-chart</description>
+			<bitmap width="19" height="15">
+				<distance min="0" max="0" />
+				<pivot x="9" y="11" />
+				<origin x="0" y="0" />
+				<graphics-location x="486" y="701" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="43">
+			<name>BOYPIL72</name>
+			<description>pillar buoy,isol.danger-brb,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1403" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCOUTLWDCHRED</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="1602">
+			<name>TOPMAR12</name>
+			<description>topmark for buoys, 2 spheres, paper-chart</description>
+			<bitmap width="8" height="13">
+				<distance min="0" max="0" />
+				<pivot x="-1" y="29" />
+				<origin x="0" y="0" />
+				<graphics-location x="48" y="307" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="220" height="400">
+				<distance min="0" max="0" />
+				<pivot x="1510" y="1470" />
+				<origin x="1550" y="555" />
+				<HPGL>SPC;PU1640,865;ST0;PM0;CI90;PM2;FP;PU1680,645;PM0;CI90;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="50">
+			<name>BOYSUP62</name>
+			<description>super buoy, yellow, full-chart</description>
+			<bitmap width="25" height="16">
+				<distance min="0" max="0" />
+				<pivot x="12" y="12" />
+				<origin x="0" y="0" />
+				<graphics-location x="1280" y="701" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+		
+		<symbol RCID="11">
+			<name>BOYSPR72</name>
+			<description>black/red/black spar bouy, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="1142" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHREDDCHBLK</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="31">
+			<name>BOYCON62</name>
+			<description>conical buoy,yellow,paper-chart</description>
+			<bitmap width="19" height="16">
+				<distance min="0" max="0" />
+				<pivot x="9" y="12" />
+				<origin x="0" y="0" />
+				<graphics-location x="225" y="415" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="1308">
+			<name>BUISGL11</name>
+			<description>conspicuous single building</description>
+			<bitmap width="9" height="9">
+				<distance min="0" max="0" />
+				<pivot x="4" y="4" />
+				<origin x="0" y="0" />
+				<graphics-location x="478" y="78" />
+			</bitmap>
+			<color-ref>WLANDFCCHBLK</color-ref>
+			<vector width="250" height="250">
+				<distance min="0" max="0" />
+				<pivot x="750" y="750" />
+				<origin x="618" y="618" />
+				<HPGL>SPW;ST0;PU618,618;PM0;PD868,618,868,868,618,868,618,618;PM2;FP;SPC;SW2;PU618,618;PD868,618;PD868,868;PD618,868;PD618,618;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+		
+		<symbol RCID="2084">
+			<name>MORFAC03</name>
+			<description>mooring dolphin</description>
+			<bitmap width="9" height="9">
+				<distance min="0" max="0" />
+				<pivot x="5" y="4" />
+				<origin x="0" y="0" />
+				<graphics-location x="709" y="175" />
+			</bitmap>
+			<color-ref>ALANDABCHBLK</color-ref>
+			<vector width="253" height="253">
+				<distance min="0" max="0" />
+				<pivot x="747" y="746" />
+				<origin x="603" y="617" />
+				<HPGL>SPA;SW2;ST0;PU603,617;PM0;PD856,617;PD856,870;PD605,870;PD603,617;PM2;FP;SPB;SW2;PU603,617;PD856,617;PD856,870;PD605,870;PD603,617;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+		
+		<symbol RCID="43">
+			<name>BOYPIL73</name>
+			<description>pillar buoy,safe water-rw,full-chart</description>
+			<bitmap width="18" height="18">
+				<distance min="0" max="0" />
+				<pivot x="9" y="14" />
+				<origin x="0" y="0" />
+				<graphics-location x="1431" y="358" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHREDDCHWHT</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="1601">
+			<name>TOPMAR10</name>
+			<description>topmark for buoys, sphere, paper-chart</description>
+			<bitmap width="7" height="7">
+				<distance min="0" max="0" />
+				<pivot x="-1" y="25" />
+				<origin x="0" y="0" />
+				<graphics-location x="31" y="307" />
+			</bitmap>
+			<color-ref>CCHBLK</color-ref>
+			<vector width="180" height="180">
+				<distance min="0" max="0" />
+				<pivot x="1515" y="1470" />
+				<origin x="1550" y="775" />
+				<HPGL>SPC;PU1640,865;ST0;PM0;CI90;PM2;FP;</HPGL>
+			</vector>
+			<definition>V</definition>
+		</symbol>
+
+		<symbol RCID="23">
+			<name>BCNSTK60</name>
+			<description>minor, stake or pole beacon, red, full-chart</description>
+			<bitmap width="8" height="16">
+				<distance min="0" max="0" />
+				<pivot x="3" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="545" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHRED</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="23">
+			<name>BCNSTK61</name>
+			<description>minor, stake or pole beacon, green, full-chart</description>
+			<bitmap width="8" height="16">
+				<distance min="0" max="0" />
+				<pivot x="3" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="563" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHGRN</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="23">
+			<name>BCNSTK62</name>
+			<description>minor, stake or pole beacon, yellow, full-chart</description>
+			<bitmap width="8" height="16">
+				<distance min="0" max="0" />
+				<pivot x="3" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="1182" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BCNGEN68</name>
+			<description>beacon in general, black/yellow, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="581" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BCNGEN69</name>
+			<description>beacon in general, yellow/black, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="601" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BCNGEN70</name>
+			<description>beacon in general, black/yellow/back, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="621" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="11">
+			<name>BCNGEN71</name>
+			<description>beacon in general, yellow/back/yellow, full-chart</description>
+			<bitmap width="10" height="18">
+				<distance min="0" max="0" />
+				<pivot x="4" y="15" />
+				<origin x="0" y="0" />
+				<graphics-location x="641" y="742" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="23">
+			<name>BCNSTK05</name>
+			<description>minor, stake or pole beacon, white, full-chart</description>
+			<bitmap width="8" height="16">
+				<distance min="0" max="0" />
+				<pivot x="3" y="13" />
+				<origin x="0" y="0" />
+				<graphics-location x="222" y="778" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHWHT</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+		<symbol RCID="36">
+			<name>TOPSHQ07</name>
+			<description>beacon top mark, red boarded square board, vertical</description>
+			<bitmap width="15" height="15">
+				<distance min="0" max="0" />
+				<pivot x="7" y="26" />
+				<origin x="0" y="0" />
+				<graphics-location x="336" y="902" />
+			</bitmap>
+			<color-ref>ADEPMDBCHBLKCCHREDDCHWHTECHYLW</color-ref>
+			<definition>R</definition>
+		</symbol>
+
+
